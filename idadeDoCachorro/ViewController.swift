@@ -15,5 +15,32 @@ class ViewController: UIViewController {
     }
 
 
+
+    @IBAction func calcularIdade(_ sender: Any) {
+        
+        let idade = Int(campoIdadeCachorro.text!)! * 7
+        legendaResposta.text = String (idade)
+    
+        
+        
+        }
+        
+        
+    @IBOutlet weak var legendaResposta: UILabel!
+    
+    @IBOutlet weak var campoIdadeCachorro: UITextField!
+    
+    
+    
+    
+    
 }
+
+    
+
+    
+
+
+
+
 
